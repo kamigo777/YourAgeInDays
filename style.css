@@ -1,0 +1,24 @@
+.container-1{
+    border: 5px greenyellow double;
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+
+}
+.flex-box-container-1{
+    display:flex; /* выстроило контеинеры с кнопками в ряд*/
+    /*здесь можна писать коментарии достаточно нажать контрл альт плюс наклонная черта*/
+    border:2px purple dashed;
+    padding: 10px;
+    flex-wrap: wrap; /*зачем это тоже непонял*/
+    flex-direction: row; /*выстраивает дивы внутри в ряд или в нужном порядке*/
+    justify-content: space-around; /*раздвишает по бокам контейнеры внутри этого контейнера*/
+/* flex-start, flex-end сдвигает дивы внутри этого дива вначало или вконец*/
+
+}
+.flex-box-container-1 div {
+    display: flex; /*вот тут я не раздубплился зачем он этим дивам это прописал*/
+    padding:10px;
+    border: 1px green dotted;
+    align-items: center; /*что бы контент внутри каждого дива был по центру дива*/
+}
